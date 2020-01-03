@@ -66,13 +66,11 @@ def parse_show(show, watched):
 if __name__ == "__main__":
 
     results = []
-    print("Work in progress")
 
-    full_data = r"C:\Users\braid\Downloads\RosieNetflixViewingHistory - Copy.csv"
-    test_data = r"C:\Users\braid\Downloads\RosieNetflixViewingHistory.csv"
     rowie_data = r"RowieNetflixViewingHistory.csv"
+    rosie_data = r"RosieNetflixViewingHistory.csv"
 
-    with open(rowie_data) as csv_file:
+    with open(rosie_data) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=",")
         line_count = 0
 
