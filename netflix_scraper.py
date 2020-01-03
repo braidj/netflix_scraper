@@ -42,8 +42,9 @@ if __name__ == "__main__":
 
     full_data = r"C:\Users\braid\Downloads\RosieNetflixViewingHistory - Copy.csv"
     test_data = r"C:\Users\braid\Downloads\RosieNetflixViewingHistory.csv"
+    rowie_data = r"RowieNetflixViewingHistory.csv"
 
-    with open(test_data) as csv_file:
+    with open(rowie_data) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=",")
         line_count = 0
 
